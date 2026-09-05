@@ -237,6 +237,7 @@ section[id]{ scroll-margin-top: 90px; }
 }
 .visual-chip{
   position:absolute;
+  max-width: 200px;
   background:#fff;
   border-radius: var(--radius-md);
   padding: 16px 20px;
@@ -247,7 +248,7 @@ section[id]{ scroll-margin-top: 90px; }
 .visual-chip--top{ top: 8%; right: -6%; }
 .visual-chip--bottom{ bottom: 10%; left: -8%; }
 .chip-label{ font-size: .72rem; color: var(--color-muted); text-transform:uppercase; letter-spacing:.06em; }
-.chip-value{ font-size: 1rem; font-weight:700; color: var(--color-teal); }
+.chip-value{ font-size: .95rem; font-weight:700; color: var(--color-teal); line-height:1.25; }
 
 /* ==========================================================================
    Sections shared
