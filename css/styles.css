@@ -332,12 +332,6 @@ section{ padding: 100px 0; }
 }
 .process-step h3{ font-size: 1.05rem; margin-bottom: 10px; }
 .process-step p{ font-size: .92rem; color: var(--color-body); }
-.process-step:not(:last-child)::after{
-  content:'';
-  position:absolute; top: 22px; left: calc(100% + 14px);
-  width: calc(28px - 14px); height:1px;
-  background: var(--color-border);
-}
 
 /* ==========================================================================
    Differentials
@@ -488,7 +482,6 @@ section{ padding: 100px 0; }
   .about-frame{ max-width: 280px; aspect-ratio: 1/1; }
   .service-grid{ grid-template-columns: 1fr 1fr; }
   .process-list{ grid-template-columns: 1fr 1fr; }
-  .process-step:not(:last-child)::after{ display:none; }
   .diff-grid{ grid-template-columns: 1fr; }
   .coverage-inner{ grid-template-columns: 1fr; }
   .coverage-media{ order:-1; max-width: 420px; margin: 0 auto; }
