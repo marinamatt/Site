@@ -389,7 +389,7 @@ section{ padding: 100px 0; }
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
-  aspect-ratio: 4/5;
+  aspect-ratio: 4/3;
 }
 .coverage-media img{ width:100%; height:100%; object-fit: cover; }
 
